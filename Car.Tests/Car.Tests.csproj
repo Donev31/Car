@@ -7,9 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Car.DL\Car.DL.csproj" />
-    <ProjectReference Include="..\Car.Models\Car.Models.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Car.BL\Car.BL.csproj" />
+		<ProjectReference Include="..\Car.DL\Car.DL.csproj" />
+		<ProjectReference Include="..\Car.Models\Car.Models.csproj" />
+	</ItemGroup>
 
 </Project>
